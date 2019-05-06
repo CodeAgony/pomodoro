@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.nav__logo p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 4rem;
+  background-color: #0cc96d; }
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 5fr 1fr;
+  grid-template-rows: 5fr 1fr;
+  justify-items: center;
+  background-color: #71f27c; }
+  .main__tomato {
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .main__timer {
+    font-size: 3rem;
+    margin-right: 1rem; }
+  .main span {
+    font-size: 3rem; }
