@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  &__logo {
+    p {
+      text-align: center;
+      margin: 0 auto;
+      font-size: 4rem;
+      background-color: #0cc96d;
+    }
+  }
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  justify-items: center;
+  background-color: #71f27c;
+    &__tomato {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    &__controls {
+      // display: flex;
+      // justify-content: center;
+    }
+  &__timer {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+  span {
+    font-size: 3rem;
+  }
+}
