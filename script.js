@@ -18,9 +18,6 @@ function init(){
         if (--timer < 0) {
             timer = duration;
         }
-        const p = document.createElement("p");
-        document.querySelector(".main").appendChild(p);
-        p.textContent = "Get your shit done";
     }, 1000);
 }
   
